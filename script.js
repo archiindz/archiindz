@@ -1,4 +1,3 @@
-    <script>
   /*
  Firebase Authentication Working Example, JavaScript, CSS, and HTML crafted with love and lots of coffee.
  (c) 2016, Ron Royston, MIT License
@@ -855,4 +854,3 @@ var demo = (function() {
   return pub;
 }());
   
-  </script>
