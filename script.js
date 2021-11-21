@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   //SHARED  
   signInButton.addEventListener("click", function(){
-    window.location = "/login";
+    window.location = "/p/login.html";
   });
 
   helpButton.addEventListener("click", function(){
@@ -701,7 +701,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   if(privatePageButton){
     privatePageButton.addEventListener("click", function(){
-      redirect("/private");
+      redirect("/p/private.html");
     });        
   }
 
@@ -782,7 +782,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
       var privateLink = doc.createElement("a");
       privateLink.classList.add('mdl-navigation__link');
-      privateLink.href = "/private";
+      privateLink.href = "/p/private.html";
       privateLink.id = "private-link";
       privateLink.appendChild(icon);
       privateLink.appendChild(anchorText);
